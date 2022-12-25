@@ -1,0 +1,17 @@
+.one {
+    display: flex;
+    background-color: cyan;
+    height: 50px;
+}
+
+.two {
+    display: flex;
+    background-color: red;
+    height: 50px;
+}
+
+.three {
+    display: flex;
+    background-color: blue;
+    height: 50px;
+}

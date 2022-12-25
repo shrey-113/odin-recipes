@@ -1,0 +1,12 @@
+* {
+    background-color: black;
+    color: cyan;
+}
+
+h1 {
+    color: blue;
+}
+
+a:visited {
+    color: beige;
+}
