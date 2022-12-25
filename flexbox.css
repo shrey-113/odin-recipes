@@ -1,17 +1,31 @@
-.one {
+.sec {
     display: flex;
-    background-color: cyan;
-    height: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
 }
 
-.two {
-    display: flex;
-    background-color: red;
-    height: 50px;
+.heading {
+    background: purple;
+    height: 100px;
 }
 
-.three {
-    display: flex;
-    background-color: blue;
-    height: 50px;
+h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+}
+
+.article {
+    padding: 10px;
+    margin: 10px;
+    background: aqua;
+    flex: 1 200px;
+}
+
+.second {
+    flex: 2 200px;
+    order: -1;
 }
